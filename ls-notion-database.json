@@ -1,0 +1,18 @@
+{
+    "filter": {
+        "and": [
+            {
+                "property": "Newsletter",
+                "select": {
+                    "equals": $NEWSLETTER
+                }
+            }
+        ]
+    },
+    "sorts": [
+        {
+            "property": "Category",
+            "direction": "ascending"
+        }
+    ]
+}
