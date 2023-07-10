@@ -2,14 +2,20 @@
     "filter": {
         "and": [
             {
-                "property": "Newsletter",
-                "select": {
-                    "equals": $NEWSLETTER
+                "property": "NewsletterIssueDateFormat",
+                "formula": {
+                    "string": {
+                        "equals": "$NEWSLETTER"
+                    }
                 }
             }
         ]
     },
     "sorts": [
+        {
+            "property": "NewsletterIssue",
+            "direction": "ascending"
+        },
         {
             "property": "Category",
             "direction": "ascending"

@@ -19,7 +19,7 @@ help:
 		awk 'BEGIN {FS = "(: |##)"}; {printf "\033[36m%-30s\033[0m %s\n", $$2, $$3}'
 	echo "Tips 💡"
 	echo "	- use tab for auto-completion"
-	echo "	- use the dry run option '-n' to show what make is attempting to do. example: environmentName=dev make -n deploy"
+	echo "	- use the dry run option '-n' to show what make is attempting to do. example: make -n NEXT_WEEK"
 
 .PHONY:
 check-notion-api-key:
@@ -33,8 +33,8 @@ ifndef NOTION_DB
 	$(error Env variable "NOTION_DB" is not defined)
 endif
 
-.PHONY: raw_db ## ⬇️ To fetch specific entries of WeeklyCuration database in my personal Notion db, eg. make NEXT_WEEK.md NEWSLETTER="17 Jul. 2023"
-raw_db: NEWSLETTER:="10 Jul. 2023"
+.PHONY: raw_db ## ⬇️ To fetch specific entries of WeeklyCuration database in my personal Notion db, eg. make NEXT_WEEK NEWSLETTER="17 Jul. 2023"
+raw_db: NEWSLETTER:=10th of July 2023
 raw_db: check-notion-api-key check-notion-db
 	echo "[⋆] Fetching entries of WeeklyCuration database for ${NEWSLETTER}..."
 	curl -s -X POST 'https://api.notion.com/v1/databases/${NOTION_DB}/query' \
@@ -53,13 +53,15 @@ full_raw_db: check-notion-api-key check-notion-db
 		-H "Content-Type: application/json" > full_raw_db.json
 	echo "[⋆] Newsletter entries are available @ file://$(PWD)/full_raw_db.json ..."
 
-.PHONY: ls-newsletter-headers  ## ❓ to list the newsletter headers that can be used as argument for raw_db.json target
-ls-newsletter-headers: full_raw_db.json
-	cat full_raw_db.json | jq "[.results[].properties.Newsletter.select.name] | unique"
+.PHONY: ls-newsletter-headers  ## ❓ to list the newsletter headers that can be used as argument for raw_db target
+ls-newsletter-headers: full_raw_db
+	cat full_raw_db.json | jq "[.results[].properties.NewsletterIssueDateFormat.formula.string] | unique"
 
+.PHONY: cleanup   ## 🧹 to clean up temporarily edited or downloaded file
 cleanup:
-	> NEXT_WEEK.md
-	rm -f full_raw_db.json raw_db.json
+	echo "[⋆] Emptying NEXT_WEEK.md file ..." && > NEXT_WEEK.md
+	echo "[⋆]¨Removing JSON results files ..." && rm -f full_raw_db.json raw_db.json
+	echo "[⋆] $@ done ✅🧹"
 
 .PHONY: NEXT_WEEK  ## ⚙️ to transform JSON output from Notion API into Markdown content that can be copy/pasted in the README
 NEXT_WEEK: raw_db
@@ -70,4 +72,3 @@ NEXT_WEEK: raw_db
 	jq '.[] |= sort'  | \
 	jq -r 'to_entries | sort_by(.key) | .[] |  "### \(.key)\n\n\(.value | join("\n"))\n"' > NEXT_WEEK.md
 	echo "[⋆] Upcoming newsletter post is available @ file://$(PWD)/NEXT_WEEK.md ..."
-
