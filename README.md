@@ -17,6 +17,87 @@ Feel free to propose content to the newsletter
 - 🗓️ : An event/meetup/conference I spotted
 - 📽️ : Video content, VOD of an event/meetup/conference
 - 📚 : About a book I discovered
+- 🐦 : A Tweet
+
+---
+
+## 17 Jul. 2023
+
+### AI 🤖
+
+- 🐦 [François Chollet - Introducing Keras Core: Keras for TensorFlow, JAX, and PyTorch](https://twitter.com/fchollet/status/1678777783848419330) | #Keras #TensorFlow #JAX #PyTorch
+- 📝 [Actors say Hollywood studios want their AI replicas — for free, forever (2023’s strike)](https://www.theverge.com/2023/7/13/23794224/sag-aftra-actors-strike-ai-image-rights) | #Trivia🎈 #Industry #AI #Copyright #ActorsStrike
+- 📝 [How Alexa learned to speak with an Irish accent](https://www.amazon.science/blog/how-alexa-learned-to-speak-with-an-irish-accent) | #Trivia🎈 #ChatBot🤖🗣️ #TextToSpeech
+- 📝 [Skyrim Mod Powered by ChatGPT Gives NPCs Memories](https://opendatascience.com/skyrim-mod-powered-by-chatgpt-gives-npcs-memories/) | #Trivia🎈 #VideoGames #ChatGPT
+- 📝 [State of Computer Vision 2023 (Sebastian Raschka)](https://magazine.sebastianraschka.com/p/ahead-of-ai-10-state-of-computer) | #StateOfTheArt #ComputerVision #LLM #Transformers #GenerativeAI #Attention #DiffusionModels
+- 📽️  [Andrej Karpathy’s state of GPT (@Microsoft Build 2023)](https://www.youtube.com/watch?v=bZQun8Y4L2A) | #ChatGPT #LLM #Training #DataCollection #LLama🦙
+
+### Architecture 📐
+
+- 📝 [Cloudflare is moving away from Nginx (2022)](https://rodneyosodo.medium.com/cloudflare-is-moving-away-from-nginx-248831c3b22) | #Network #Nginx #Pingora #Rust #Cloudflare
+- 📝 [PostgreSQL: No More VACUUM, No More Bloat (Alexander Korotkov)](https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/) | #Database #PostgreSQL #LowLevel
+- 📽️  [Fabulous Fortunes, Fewer Failures, and Faster Fixes from Functional Fundamentals - Scott Havens (DOES2019 Las Vegas)](https://www.youtube.com/watch?v=FskIb9SariI&t=1s) | #Kakfa #Production #EventSourcing #ConferenceTalk #FunctionalProgrammingλ
+- 🧰 [Software architecture hype cycle (Milan Milanovic)](https://www.linkedin.com/posts/milanmilanovic_technology-softwareengineering-programming-activity-7084818676960440320-f949) | #SoftwareEngineering #CQRS #Serverless #Microservices #Adopt
+- 🧰 [Tech blogs & talks from (at least) 30 companies that run Kafka in production](https://github.com/dttung2905/kafka-in-production) | #Kafka #Industry #Production
+
+### Blockchain ⛓️
+
+- 🐦 [Introducing Polygon 2.0 and transition from MATIC to POL](https://twitter.com/LayerE_Intern/status/1679434845577961472) | #Blockchain #Polygon #Token #Governance
+
+### Cloud ☁️
+
+- 📝 [Announcing DynamoDB local version 2.0](https://aws.amazon.com/fr/about-aws/whats-new/2023/07/dynamodb-local-version-2-0/) | #AWS
+- 📝 [Azure AD is becoming Microsoft Entra ID](https://azure.microsoft.com/en-us/updates/azure-ad-is-becoming-microsoft-entra-id/) | #Azure
+- 📝 [Lessons learned - Discontinuation of InfluxDB Cloud in AWS Sydney and GCP Belgium](https://www.influxdata.com/blog/update-from-influxdata-paul-dix-july-10/) | #MeaCulpa #PostMortem #InfluxDB #DataLoss
+- 📝 [Understanding AWS Lambda proactive initialization (Aaron Stuyvenberg)](https://aaronstuyvenberg.com/posts/understanding-proactive-initialization) | #AWS #Lambda #ColdStart #WarmUp
+
+### Data Mesh 🥅
+
+- 📝 [PayPal open sources its data contract template](https://jgp.ai/2023/05/01/paypal-open-sources-its-data-contract-template/) | #DataQuality #Contract #Schema
+- 🧰 [paypal/data-contract-template - Template for a data contract used in a data mesh](https://github.com/paypal/data-contract-template) | #DataQuality #Contract #Schema #YAML
+
+### DevOps 🛠️
+
+- 📝 [The rise of open standards in observability: highlights from KubeCon](https://www.cncf.io/blog/2023/07/10/the-rise-of-open-standards-in-observability-highlights-from-kubecon/) | #CNCF #OpenTelemetry #OpenCensus #Prometheus #KubeCon
+- 🚀 [Keycloak 22.0.0 is out ](https://www.keycloak.org/2023/07/keycloak-2200-released.html)
+- 🚀 [OpenTelemetry Protocol (OTLP) version 1.0 is out (Dotan Horovits)](https://twitter.com/horovits/status/1675946183032729622) | #OpenTelemetry #1.0.0
+- 🚀 [docker compose 2.20.0 is out](https://github.com/docker/compose/releases/tag/v2.20.0)
+
+### Functional programming λ
+
+- 📝 [Love Letter To Clojure (Part 1) (Gene Kim, 2019)](https://itrevolution.com/articles/love-letter-to-clojure-part-1/) | #Clojure #FunctionalProgrammingλ #LISP
+- 🧰 [F# for Fun and Profit](https://fsharpforfunandprofit.com/) | #F# #LearningResource
+
+### Product Management 📦
+
+- 🧰 [Misleading roadmap | Honest roadmap | Strategic roadmap](https://twitter.com/carlvellotti/status/1679530059345055751) | #Roadmap #Linearity #Strategy #Agility
+
+### Python 🐍
+
+- 🐦 [Meta commits to dedicate three engineer-years to implement the removal of the GIL from Python](https://twitter.com/llanga/status/1677648534563086338) | #SoftwareEngineering #LowLevel #Performance
+- 🗓️ [Airflow summit 2023 will take place on September 19th to 21st](https://airflowsummit.org/sessions/2023/) | #Airflow #Conference #DataMesh
+- 🚀 [Conda’s dependency solver switching to libmamba this month](https://conda.org/blog/2023-07-05-conda-libmamba-solver-rollout/) | #Conda #Anaconda #Miniconda #Mamba #Performance
+- 🚀 [Great Expectations 0.17.5 is out](https://docs.greatexpectations.io/docs/changelog/#0175) | #SoftwareEngineering #DataQuality #open-source
+- 🚀 [Uvicorn 0.23.0 is out](https://github.com/encode/uvicorn/releases/tag/0.23.0) | #WebServer #ASGI
+
+### QuantumComputing ⚛️
+
+- 📝 [Google Claims Latest Quantum Experiment Would Take Decades on Classical Computer](https://thequantuminsider.com/2023/07/04/google-claims-latest-quantum-experiment-would-take-decades-on-classical-computer/) | #Trivia🎈 #Industry #R&D
+
+### Security☣️
+
+- 📝 [PyLoose: Python-based fileless malware targets cloud workloads to deliver cryptominer](https://www.wiz.io/blog/pyloose-first-python-based-fileless-attack-on-cloud-workloads) | #Python #Malware #memfd
+- 📝 [The massive bug at the heart of the npm ecosystem](https://blog.vlt.sh/blog/the-massive-hole-in-the-npm-ecosystem) | #NPM #NodeJS #Security
+
+### Software Engineering ⚙️
+
+- 📝 [How Google Measures and Manages Tech Debt (Abi Noda)](https://newsletter.abinoda.com/p/measuring-and-managing-tech-debt) | #TechnicalDebt #Productivity #CodeQuality #SystemsThinking #MaturityModel
+- 🗓️ [DDD Europe 2024 will happen on May 27-31 2024 in Amsterdam](https://twitter.com/ddd_eu/status/1667449494294740998) | #Conference #DDD
+
+### Web Development 🧑‍💻
+
+- 📝 [➰ Understanding SVG Paths](https://www.nan.fyi/svg-paths) | #Animation, #Bezier, #Cursor, #Demo, #Line, #SVG
+  - Contributed by [@rfrenoy](https://github.com/rfrenoy)
 
 ---
 
