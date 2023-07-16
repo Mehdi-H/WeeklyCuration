@@ -1,3 +1,8 @@
 .envrc
 raw_db.json
 full_raw_db.json
+
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+.vscode/

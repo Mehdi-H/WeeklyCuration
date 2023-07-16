@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "weekly-curation"
+version = "0.1.0"
+description = ""
+authors = ["Mehdi-H <mehdi.houacine7@gmail.com>"]
+readme = "README.md"
+packages = [{include = "weekly_curation", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+notion-client = "^2.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4.0"
+ruff = "^0.0.278"
+black = "^23.7.0"
+mypy = "^1.4.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
