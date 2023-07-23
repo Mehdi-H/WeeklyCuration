@@ -11,15 +11,83 @@ Feel free to propose content to the newsletter
 
 ## Legend
 
-- 📝 : Blog post/article
+- 📝 : Blog post/article, or slide deck
 - 🚀 : Release note
 - 🧰 : Technical or methodological tool to add to my toolbox
 - 🗓️ : An event/meetup/conference I spotted
 - 📽️ : Video content, VOD of an event/meetup/conference
 - 📚 : About a book I discovered
 - 🐦 : A Tweet
+- 🎙️ : A podcast series or episode
 
 ---
+
+## 24 Jul. 2023
+
+### AI 🤖
+
+- 🐦 [kNN using a gzip-based distance metric outperforms BERT and other neural methods for OOD sentence classification (Riley Goodside)](https://twitter.com/goodside/status/1679358632431853568) | #Gzip #BERT #Benchmark #TextClassification
+- 📝 [FTC investigates OpenAI over data leak and ChatGPT’s inaccuracy (Washington Post)](https://www.washingtonpost.com/technology/2023/07/13/ftc-openai-chatgpt-sam-altman-lina-khan/) | #OpenAPI #ChatGPT #ConsumerProtectionLaws #Industry #SlidesDeck
+- 📝 [Large Language Models: From Prototype to Production (Ines Montani, EuroPython2023 keynote)](https://speakerdeck.com/inesmontani/large-language-models-from-prototype-to-production-europython-keynote) | #LLM #NLP #NER #Spacy #Prodigy
+- 📝 [Llama 2: Open Foundation and Fine-Tuned Chat Models (paper - Meta AI)](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/) | #R&D #Paper
+- 📝 [Llama 2: Open source, free for research and commercial use (website - Meta AI)](https://ai.meta.com/llama/) | #
+- 📝 [Llama 2: Statement of Support for Meta’s Open Approach to Today’s AI](https://about.fb.com/news/2023/07/llama-2-statement-of-support/) | #
+- 📽️  [Compliant Mechanisms that learn - Mechanical Neural Network Architected Materials](https://www.youtube.com/watch?v=_CwUuyN6NTE&t=3s) | #R&D #Physics #NeuralNetworks #ArchitectedMaterial
+
+### Architecture 📐
+
+- 📝 [How platform teams get stuff done (Pete Hodgson, martinfowler.com)](https://martinfowler.com/articles/platform-teams-stuff-done.html) | #Platform #Productivity #Adoption #Collaboration #TeamTopologies #Conway'sLaw
+- 📝 [RedisGraph End-of-Life Announcement](https://redis.com/blog/redisgraph-eol/) | #Redis #RedisGraph #Sunset
+- 📽️  [[Live coding] C4 Models as Code • Simon Brown • YOW! 2022](https://www.youtube.com/watch?v=4aiAkUm7rzQ) | #DiagramAsCode #C4Model #LivingDocumentation #C4PlantUML #Structurizr
+
+### DDD 📘
+
+- 🎙️ [🇫🇷 Introduction à Domain-Driven Design avec Nelson da Costa (Podcast Café Craft)](https://podcasts-francais.fr/podcast/cafe-craft/episode-4-domain-driven-design-avec-nelson-da-cost) | #DDD #Introduction
+- 🐦 [DDDEurope2024’s call for proposal is open](https://twitter.com/ddd_eu/status/1681658780772122624) | #Conference #CFP #SoftwareModelling
+
+### Data Mesh 🥅
+
+- 🧰 [datamesh-architecture.com : why, what, and how of Data Mesh with examples](https://www.datamesh-architecture.com/#tech-stacks) | #Toolbox #DataProduct #TechStack #DataContract
+
+### DevOps 🛠️
+
+- 📽️  [🇫🇷 Laissez tomber vos Dockerfile, adoptez un buildpack ! (Julien Wittouck, Sunny Tech 2023)](https://www.youtube.com/watch?v=2Zo34sXsMxU) | #Conference #Docker #Buildpack #Pack #Distroless #SBOM #Paketo
+- 📽️  [🇫🇷 Suivez vos applications à la trace grâce à OpenTelemetry (Julien Tanguy, Sunny Tech 2022)](https://www.youtube.com/watch?v=NXYAtkEm_hk) | #Conference #OpenTelemetry #OTLP #LiveDemo
+- 🚀 [Terraform 1.6.0-alpha available soon, “test” command not experimental anymore](https://github.com/hashicorp/terraform/releases/tag/v1.6.0-alpha20230719) | #Terraform
+- 🧰 [awesome-cloud-native](https://github.com/rootsongjc/awesome-cloud-native) | #CloudNative
+- 🧰 [📖 trimstray/the-book-of-secret-knowledge](https://github.com/trimstray/the-book-of-secret-knowledge) | #Bible #AdminSys #Network #DevOps #PenTest #Shell #Hack
+
+### Living Documentation 📖💗
+
+- 📚 [Living Documentation (Cyrille Martraire)](https://www.goodreads.com/book/show/34927405-living-documentation) | #LivingDocumentation #KnowledgeAugmentation #EvergreenDoc
+- 📝 [JSONSchema](https://json-schema.org/) | #DataDocumentation #DataContract #DataValidation
+- 📝 [coveooss/json-schema-for-humans](https://github.com/coveooss/json-schema-for-humans) | #JSONSchemaToHTML #JSONSchemaToMarkdown
+- 🧰 [Self-Documented Makefile (François Zaninotto)](https://marmelab.com/blog/2016/02/29/auto-documented-makefile.html) | #Automation #LivingDocumentation #GNUMake #RecList #DeveloperExperience #Shell
+
+### Management 👔
+
+- 📽️  [Work Anywhere: Managing Remote Engineering Teams at Airbnb (Jessica Tai • YOW! 2022)](https://www.youtube.com/watch?v=7cPOa5FX_Rw&t=1138s) | #FullRemote #WorkFromAnywhere #MultipleTimezones #RemoteManager #DesignDocs #RFCs #NoAgendaNoMeeting
+- 🧰 [Gitlab’s Objectives and Key Results (OKRs) handbook](https://about.gitlab.com/company/okrs/) | #OKR
+
+### Python 🐍
+
+- 📝 [10 Best Practices for Logging in Python (BetterStack)](https://betterstack.com/community/guides/logging/python/python-logging-best-practices/) | #Logging #LoggingConfig #Loguru #StructuredLogging #python-json-logger
+- 📝 [Asyncio Evolved: Enhanced Exception Handling with TaskGroup in Python 3.11(Junya Fukuda, EuroPython 2023)](https://speakerdeck.com/jrfk/asyncio-evolved-enhanced-exception-handling-with-taskgroup-in-python-3-dot-11-europython-2023) | #SlidesDeck #AynscIO #TaskGroup
+- 📝 [PEP 710 (draft) – Recording the provenance of installed packages](https://peps.python.org/pep-0710/) | #PEP #SBOM #Auditability #Security
+- 📝 [🔵 Blue : a somewhat less uncompromising code formatter than ⚫ Black, the OG of Python formatters](https://github.com/grantjenks/blue) | #Style #Lint
+- 🚀 [Cython 3.0.0 is out](https://cython.readthedocs.io/en/latest/src/changes.html#major-themes-in-3-0-0) | #C #Performance #LowLevel
+
+### Security☣️
+
+- 📝 [Security Developer-in-Residence – Weekly Report #2 (Seth Larson) - On the importance of having a SBOM (Software Bill of Materials)](https://sethmlarson.dev/security-developer-in-residence-weekly-report-2) | #PEP #PEP710 #SBOM #Security
+- 🧰 [Explaining JSON Web Token (JWT) to a 10 year old Kid (ByteByteGo)](https://blog.bytebytego.com/p/ep69-explaining-json-web-token-jwt#%C2%A7explaining-json-web-token-jwt-to-a-year-old-kid) | #JWT #Infographics
+
+### Software Engineering ⚙️
+
+- 📝 [Object Calisthenics (William Durand, 2013)](https://williamdurand.fr/2013/06/03/object-calisthenics/) | #SOLID #CleanCode #CodeReadability #SlidesDeck
+- 🧰 [Egoless Crafting: Practicing Software Craftsmanship with Ego-Resiliency](https://egolesscrafting.org/) | #SoftSkills #EgolessProgramming #Manifesto
+
+
 
 ## 17 Jul. 2023
 
