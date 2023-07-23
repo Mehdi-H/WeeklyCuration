@@ -33,10 +33,10 @@ ifndef NOTION_DB
 	$(error Env variable "NOTION_DB" is not defined)
 endif
 
-.PHONY: raw_db ## ⬇️ To fetch specific entries of WeeklyCuration database in my personal Notion db, eg. make NEXT_WEEK NEWSLETTER="17 Jul. 2023"
-raw_db: NEWSLETTER:=10th of July 2023
+.PHONY: raw_db ## ⬇️ To fetch specific entries of WeeklyCuration database in my personal Notion db, eg. make NEXT_WEEK ISSUE="17 Jul. 2023"
+raw_db: ISSUE:=10th of July 2023
 raw_db: check-notion-api-key check-notion-db
-	echo "[⋆] Fetching entries of WeeklyCuration database for ${NEWSLETTER}..."
+	echo "[⋆] Fetching entries of WeeklyCuration database for ${ISSUE}..."
 	curl -s -X POST 'https://api.notion.com/v1/databases/${NOTION_DB}/query' \
 		-H 'Authorization: Bearer '"$$NOTION_API_KEY"'' \
 		-H 'Notion-Version: 2022-06-28' \
@@ -46,7 +46,7 @@ raw_db: check-notion-api-key check-notion-db
 
 .PHONY: full_raw_db  ## ⏬ To fetch all entries of WeeklyCuration database in my personal Notion db
 full_raw_db: check-notion-api-key check-notion-db
-	echo "[⋆] Fetching entries of WeeklyCuration database for ${NEWSLETTER}..."
+	echo "[⋆] Fetching entries of WeeklyCuration database for ${ISSUE}..."
 	curl -s -X POST 'https://api.notion.com/v1/databases/${NOTION_DB}/query' \
 		-H 'Authorization: Bearer '"$$NOTION_API_KEY"'' \
 		-H 'Notion-Version: 2022-06-28' \
