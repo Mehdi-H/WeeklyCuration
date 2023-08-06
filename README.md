@@ -22,6 +22,70 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 31 Jul. 2023
+
+### AI 🤖
+
+- 🎙️ [E33: The Tiny Model Revolution with Ronen Eldan and Yuanzhi Li of Microsoft Research (The Cognitive Revolution "How AI Changes Everything”)](https://open.spotify.com/episode/7BqSNRLQP6rAihEp5VexD6) | #TinyModels #HuggingFace
+- 📝 [Bad numbers in the “gzip beats BERT” paper?](https://kenschutte.com/gzip-knn-paper/)
+- 📝 [Perspectives on diffusion](https://sander.ai/2023/07/20/perspectives.html) | #DiffusionModels #AutoEncoders #LatentVariables
+- 📝 [Plot Twist : Stack Overflow is announcing OverflowAI](https://stackoverflow.blog/2023/07/27/announcing-overflowai/) | #AI #Platform #Agent
+- 📝 [The Fall of Stack Overflow ? - Diminution of traffic of about 35% in the last year (dataviz)](https://observablehq.com/@ayhanfuat/the-fall-of-stack-overflow) | #ChatGPT #Cannibalization
+- 🚀 [TensorFlow 2.13 and Keras 2.13 are out](https://blog.tensorflow.org/2023/07/whats-new-in-tensorflow-213-and-keras-213.html)
+- 🧰 [AntonOsika/gpt-engineer - Specify what you want it to build, the AI asks for clarification, and then builds it.](https://github.com/AntonOsika/gpt-engineer)
+- 🧰 [Automated code reviews with code-review-gpt](https://github.com/mattzcarey/code-review-gpt) | #DeadCode #ExposedSecrets #CodeReview
+- 🧰 [Compilation of high-profile real-world examples of failed machine learning projects](https://github.com/kennethleungty/Failed-ML) | #BadStartupIdeas #Fail #Bias #Overfit #Trivia🎈
+
+### Architecture 📐
+
+- 📝 [Interesting Learnings from Outages (Real-World Engineering Challenges #10)](https://newsletter.pragmaticengineer.com/p/real-world-engineering-10) | #Investigation #PostMortem #DNS #Caching #Github #Reddit #SLI/SLO
+- 🧰 [Catalog of 65 integration patterns (Enterprise Integration Patterns, Gregor Hohpe)](https://www.enterpriseintegrationpatterns.com/patterns/messaging/toc.html)
+
+### Cloud ☁️
+
+- 🎙️ [The Promise of Serverless (SaaS for Developers podcast, by Gwen Shapira)](https://open.spotify.com/episode/7n1JuoFviQjKvEeO6uPYiF) | #AWS #S3 #Performance #Scalability #FinOps
+- 📝 [AWS Begins Charging For Public IPv4 Addresses](https://www.lastweekinaws.com/blog/breaking-aws-begins-charging-for-public-ipv4-addresses/)
+- 📝 [Building and operating a pretty big storage system called S3](https://www.allthingsdistributed.com/2023/07/building-and-operating-a-pretty-big-storage-system.html) | #AWS #S3 #Performance #Cost
+
+### DDD 📘
+
+- 📝 [Cloud Automation à la DDD: From stringly typed to affordances (Gregor Hohpe)](https://architectelevator.com/cloud/ddd-technical-domains/)
+
+### Database 🧫
+
+- 📝 [State of databases 2023 (producthunt.com)](https://stateofdb.com/) | #SQL #NoSQL #ORM #Cost #Provider #BI #DataWarehouse #Popularity
+- 📽️  [InfluxDB 3.0 is a rewrite of InfluxDB in Rust (⚠️ video protected by a form)](https://www.influxdata.com/resources/meet-the-founders-an-open-discussion-about-rewriting-using-rust/) | #Rust #InfluxDB #TSDB #LowLevel #Performance
+- 🗓️ [PGDay UK 2023 will be on September 12 in London](https://2023.pgday.uk/) | #PostgreSQL #Conference
+- 🧰 [10 Postgres tips for beginners (Nikolay Samokhvalov)](https://postgres.ai/blog/20230722-10-postgres-tips-for-beginners) | #PostgreSQL #Tuples #Explain #Analyze #DBeaver #DataGrip #Postico #Logging #Checksums #AutoVacuum
+
+### DevOps 🛠️
+
+- 🐦 [Ansible creator teases JetPorch, a new automation project written in Rust](https://laserllama.substack.com/p/a-new-it-automation-project-moving) | #JetPorch #Rust #Automation #Platform
+- 🗓️ [PromCon EU 2023 will be on September 28 - 29 in Berlin, CFP is still open](https://promcon.io/2023-berlin/) | #Prometheus #Conference #TSDB
+- 🚀 [Task v3.28.0 is out, with the ability to loop over commands + tasks using “for” keyword](https://taskfile.dev/changelog/#v3280---2023-07-24) | #Automation #GNUMake #YAML
+- 🧰 [awesome-prometheus](https://github.com/roaldnefs/awesome-prometheus) | #Toolbox #Monitoring #Metrics #Alerting #Grafana #Prometheus
+- 🧰 [kelseyhightower/kubernetes-the-hard-way](https://github.com/kelseyhightower/kubernetes-the-hard-way) | #Tutorial #LearningResource #KubernetesTheHardWay
+
+### Product Management 📦
+
+- 📝 [Ditch Epics & User Stories and Focus on Outcomes (Ant Murphy)](https://www.antmurphy.me/newsletter/from-epics-amp-stories-to-hypotheses-and-problem-statements-shifting-to-outcomes) | #Epics #Hypothesis #Experimentation #Opportunity
+
+### Python 🐍
+
+- 📝 [dabeaz-course/python-mastery](https://github.com/dabeaz-course/python-mastery) | #LearningResource #Generators #Coroutines #Concurrency #Metaprogramming
+- 🚀 [Prefect 2.11.0 & 2.11.1 are out](https://github.com/PrefectHQ/prefect/releases/tag/2.11.1) | #Orchestrator #Observability #Piepline
+
+### Security☣️
+
+- 🐦 [Universal and Transferable Adversarial Attacks on Aligned Language Models (website, paper and code)](https://twitter.com/ItakGol/status/1684858195771060224) | #AI #LLM #GPT-4 #PaLM-2 #Prompt #Hack
+- 📝 [How to Find Advanced Persistent Threats in your Security Logs](https://blog.scanner.dev/security-logs-and-apts/) | #AWS CloudTrail #GithubAuditLogs
+
+### Software Engineering ⚙️
+
+- 🐦 [Codecov is now opensource](https://twitter.com/zeeg/status/1684954865121067008) | #CodeCoverage #CodeQuality
+- 📝 [Postman acquires Akita for automated API observability](https://blog.postman.com/postman-acquires-akita-for-automated-api-observability/) | #Industry
+- 🧰 [How GenAI effects our software delivery practices (Martin Fowler, Birgitta Böckeler)](https://twitter.com/martinfowler/status/1684228057341591553) | #GithubCopilot #ChatGPT #GPTEngineer #Meta'sCodeCompose
+
 ## 24 Jul. 2023
 
 ### AI 🤖
