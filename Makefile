@@ -59,9 +59,9 @@ ls-newsletter-headers: full_raw_db
 
 .PHONY: cleanup   ## 🧹 to clean up temporarily edited or downloaded file
 cleanup:
-	echo "[⋆] Emptying NEXT_WEEK.md file ..." && > NEXT_WEEK.md
-	echo "[⋆]¨Removing JSON results files ..." && rm -f full_raw_db.json raw_db.json
-	echo "[⋆] $@ done ✅🧹"
+	echo "[⋆] 🧹 Emptying NEXT_WEEK.md file ..." && > NEXT_WEEK.md
+	echo "[⋆] 🧹 Removing JSON results files ..." && rm -f full_raw_db.json raw_db.json
+	echo "[⋆] 🧹🧹 $@ done ✅🧹"
 
 .PHONY: NEXT_WEEK  ## ⚙️ to transform JSON output from Notion API into Markdown content that can be copy/pasted in the README
 NEXT_WEEK: raw_db
