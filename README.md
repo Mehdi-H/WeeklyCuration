@@ -22,6 +22,56 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 7th Aug. 2023
+
+### AI 🤖
+
+- 🐦 [Hype Cycle of Artificial Intelligence 2023 - Gartner](https://twitter.com/KirkDBorne/status/1686405713713590272) | #NeuroSymbolicAI #CausalAI #ArtificialGeneralIntelligence #NeuromorphicComputing #GenerativeAI #KnowledgeGraphs
+- 📝 [NeurIPS 2023 Machine Unlearning Challenge](https://unlearning-challenge.github.io/) | #AI #LLM #RightToBeForgotten #Privacy #Regulations
+- 📝 [Patterns for building LLM based systems and products (Eugene Yan)](https://eugeneyan.com/writing/llm-patterns/) | #Evaluation #BLEU #ROUGE #RetrievalAugmentedGeneration #Hallucination #FineTuning
+- 📝 [State of AI 2023 (McKinsey)](https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai-in-2023-generative-ais-breakout-year) | #StateOfTheArt #GenerativeAI
+- 📝 [The NeverEnding Game: How AI Will Create a New Category of Games (Jonathan Lai)](https://a16z.com/2023/07/19/the-neverending-game-how-ai-will-create-a-new-category-of-games/) | #VideoGames #GenerativeAgents #Personalization #NarrativeStorytelling #DynamicWorldBuilding
+- 📽️  [JupyterCon 2023 videos are available](https://www.youtube.com/playlist?list=PL_1BH3ug7n1Ih_Yy2TmM7MZ2zogSLZvzE) | #Conference #JupyterNotebooks #JupyterLab #JupyterHub
+- 🗓️ [NeurIPS 2023 will happen Sunday Dec. 10 through Saturday Dec. 16](https://nips.cc/) | #NeurIPS #Conference #MachineLearning #Neuroscience
+- 🧰 [kelvins/awesome-mlops - A curated list of awesome MLOps tools](https://github.com/kelvins/awesome-mlops) | #AutoML #DataCatalog #MachineLearningPlatform #ModelFairness #Privacy
+
+### Architecture 📐
+
+- 📽️  [Best Kafka Summit vídeos - Recording and slides of talks @ Kafka Summit since 2018 (kafka.apache.org)](https://kafka.apache.org/videos) | #Kafka #Fundamentals #Internals #UseCases
+- 🧰 [Architecting disaster recovery for cloud infrastructure outages on GCP](https://cloud.google.com/architecture/disaster-recovery) | #DisasterRecovery #DDDEurope2023 #Resilience #Availability #RPO #RTO #CapabilityMapping
+
+### Cloud ☁️
+
+- 📝 [Prime Day 2023 – All the Numbers (AWS)](https://aws.amazon.com/fr/blogs/aws/prime-day-2023-powered-by-aws-all-the-numbers/) | #AWS #Petabytes #TrillionsOfRequests
+- 🚀 [New Seventh-Generation General Purpose Amazon EC2 Instances (M7i-Flex and M7i)](https://aws.amazon.com/fr/blogs/aws/new-seventh-generation-general-purpose-amazon-ec2-instances-m7i-flex-and-m7i/) | #AWS #EC2 #Intel®Xeon®Scalable
+- 🧰 [State of Cloud 2023 (by Pluralsight)](https://www.pluralsight.com/resource-center/state-of-cloud-2023) | #StateOfTheArt
+
+### Database 🧫
+
+- 📽️  [ML⇄DB Seminar Series - Implementation details of Machine Learning for databases & DB for ML (Carnegie Mellon University)](https://db.cs.cmu.edu/seminar2023/) | #AI #Databases #QueryOptimizer #RedShift #BigQuery #DuckDB #Snowflake #Databricks #OLAP
+
+### DevOps 🛠️
+
+- 📝 [Prometheus Now Supports OpenTelemetry Metrics](https://horovits.medium.com/prometheus-now-supports-opentelemetry-metrics-83f85878e46a) | #Prometheus #OpenTelemetry #OTLP #CNCF
+- 🚀 [Docker init - a new command to initialize dockerfiles](https://www.docker.com/blog/docker-init-initialize-dockerfiles-and-compose-files-with-a-single-cli-command/) | #Docker #Dockerfile #Dockerignore #DockerCompose
+- 🚀 [First release of JQ in the last 5 years](https://github.com/jqlang/jq/releases/tag/jq-1.7rc1) | #JSONQuery #NewMaintainers #GithubActions #DockerImages
+- 🧰 [alebcay/awesome-shell - A curated list of awesome command-line frameworks, toolkits, guides and gizmos](https://github.com/alebcay/awesome-shell) | #Shells #CLI #Productivity
+
+### Python 🐍
+
+- 📽️  [Python Web Conf 2023 videos are available](https://www.youtube.com/playlist?list=PLt4L3V8wVnF4GJb8dekLGTNx44FNIFwdv) | #Conference #PWC2023
+- 🧰 [satwikkansal/wtfpython - Exploring and understanding Python through surprising snippets](https://github.com/satwikkansal/wtfpython) | #Quirks #WTF #CodeSamplesWithExplanations
+
+### Software Engineering ⚙️
+
+- 📝 [Common design patterns at Stripe (Paul Asjes)](https://dev.to/stripe/common-design-patterns-at-stripe-1hb4) | #AvoidJargon #PreferEnumsOverBooleans #DesignForExtensibility
+- 📝 [Don't write clean code, write CRISP code (John Arundel)](https://bitfieldconsulting.com/golang/crisp-code) | #Golang #Correct #Readable #Idiomatic #Simple #Performant
+- 🧰 [TIL - Callouts are available in Github-flavored Markdown](https://github.com/orgs/community/discussions/16925) | #Markdown #TodayILearned #LivingDocumentation #HierarchyOfInformation
+
+### Web Development 🧑‍💻
+
+- 📝 [Speeding up the dbt™ docs by 20x with React Server Components](https://dagster.io/blog/dbt-docs-on-react) | #Performance #SlowLoadTime #ReactServerComponents #Lighthouse #NextJS
+
 ## 31 Jul. 2023
 
 ### AI 🤖
