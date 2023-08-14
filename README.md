@@ -22,6 +22,52 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 14h Aug. 2023
+
+### AI 🤖
+
+- 📝 [Nvidia's new A.I. chip claims it will drop the costs of running LLMs](https://www.cnbc.com/2023/08/08/nvidia-reveals-new-ai-chip-says-cost-of-running-large-language-models-will-drop-significantly-.html?__source=sharebar|linkedin&par=sharebar) | #Hardware #Cost #Industry
+- 🧰 [It's now possible to block ChatGPT's crawler on any website](https://platform.openai.com/docs/gptbot) | #Robots.txt
+
+### Architecture 📐
+
+- 📽️  [The lost art of software design (Simon Brown)](https://www.youtube.com/watch?v=UzFpFQgeEyc)
+- 🧰 [The Apache Kafka Handbook (Gerard Hynes)](https://www.freecodecamp.org/news/apache-kafka-handbook/) | #CoreConcepts #EventStreaming #EventDrivenArchitectures #Zookeeper
+
+### Cloud ☁️
+
+- 📝 [Forbes - The Cloud 100 2023](https://www.forbes.com/lists/cloud100/) | #Industry #Trivia🎈 #Ranking #BillionsOfDollarsValuation
+- 📝 [Surfacing performance issues with effective visualization of profiling data (Lily Chen, Datadog)](https://lilychencodes.medium.com/surfacing-performance-issues-with-effective-visualization-of-profiling-data-7ac4430950d3) | #Performance #FlameGraph #CallGraph #FlameScope #Observability #Barbenheimer
+
+### Data Mesh 🥅
+
+- 📝 [Innovative Implementation of Data Contracts with DBT](https://juhache.substack.com/p/practical-implementation-of-data)
+
+### DevOps 🛠️
+
+- 📝 [As HashiCorp adopts the BSL, an era of open-source software might be ending (Tom Krazit)](https://www.runtime.news/as-hashicorp-adopts-the-bsl-an-era-of-open-source-software-might-be-ending/)
+- 📝 [HashiCorp announces transition from the Mozilla Public License v2.0 (MPL 2.0) to the Business Source License (BSL, or BUSL) v1.1 for future releases of all products and several libraries (Aug-10)](https://www.hashicorp.com/license-faq#What-did-HashiCorp-announce-today-(Aug-10)) | #OfficialCommunication #FAQ
+- 🧰 [adriannovegil/awesome-observability](https://github.com/adriannovegil/awesome-observability) | #Practices #Tools #Toolbox
+
+### Product Management 📦
+
+- 🧰 [A full list of dead products killed by Google](https://killedbygoogle.com/) | #Services #Hardware #Apps #RIP
+
+### Python 🐍
+
+- 🗓️ [It’s time to stop using Python 3.7 (end-of-life, June 2023)](https://pythonspeed.com/articles/stop-using-python-3.7/)
+- 🚀 [Mypy 1.5.0 is out](https://mypy-lang.blogspot.com/2023/08/mypy-15-released.html) | #DropPython3.7
+- 🚀 [Pydantic 2.1.0 & 2.1.1 are out](https://docs.pydantic.dev/latest/changelog/#v210-2023-07-25)
+
+### Security☣️
+
+- 📝 [Hacking Github AWS integrations again - Meanderings by Daniel Grzelak](https://dagrz.com/writing/aws-security/hacking-github-aws-oidc/) | #Github #OIDC #AWSIntegration #CodeSamplesWithExplanations
+
+### Software Engineering ⚙️
+
+- 📝 [The After Open Source Era Has Started (Bilgin Ibryam)](https://blog.oss.fund/p/open-source-eras) | #OpenSource #SharedSource #License #Monetization #TheCathedralAndTheBazaar
+- 🚀 [Go 1.21 is released ](https://go.dev/blog/go1.21)
+
 ## 7th Aug. 2023
 
 ### AI 🤖
