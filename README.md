@@ -22,6 +22,61 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 18th Sept. 2023
+
+### AI 🤖
+
+- 🐦 [joonspk-research/generative_agents - Interactive Simulacra of Human Behavior](https://github.com/joonspk-research/generative_agents) | #GenerativeAgents #Simulation #VideoGames
+- 📝 [Open challenges in LLM research](https://huyenchip.com/2023/08/16/llm-research-open-challenges.html?utm_source=tldrai) | #LLM #Hallucination #Optimization #GPUAlternatives
+- 🚀 [Do Machine Learning Models Memorize or Generalize?](https://pair.withgoogle.com/explorables/grokking/)
+
+### Cloud ☁️
+
+- 📝 [How to choose a containerized service on AWS (AWS documentation)](https://aws.amazon.com/fr/getting-started/decision-guides/containers-on-aws-how-to-choose/)
+- 🚀 [Announcing AWS Dedicated Local Zones](https://aws.amazon.com/about-aws/whats-new/2023/08/aws-dedicated-local-zones/)
+- 🚀 [PostgreSQL 16 Release Candidate 1 is now available in Amazon RDS Database Preview Environment](https://aws.amazon.com/about-aws/whats-new/2023/08/postgresql-16-release-candidate-1-amazon-rds-database-preview-environment/)
+
+### Data 💾
+
+- 🚀 [Pandas 2.1.0 is out](https://pandas.pydata.org/docs/whatsnew/v2.1.0.html)
+- 🧰 [jqnatividad/qsv: CSVs sliced, diced & analyzed](https://github.com/jqnatividad/qsv) | #CLI #CSVManipulation
+
+### Database 🧫
+
+- 🚀 [PostgreSQL 16 is out](https://www.postgresql.org/about/news/postgresql-16-released-2715/) | #Performance #Monitoring #Replication #Localization
+
+### DevOps 🛠️
+
+- 📝 [How Back Market SREs prepared for Black Friday (Mathieu Garstecki)](https://engineering.backmarket.com/how-back-market-sres-prepared-for-black-friday-5f017f343408)
+- 📝 [How DoorDash Migrated from StatsD to Prometheus - DoorDash Engineering Blog](https://doordash.engineering/2023/08/01/how-doordash-migrated-from-statsd-to-prometheus/) | #StatsD #Prometheus #Monitoring #Performance #UDP
+- 📝 [OpenTF Announces Fork of Terraform](https://opentf.org/announcement#:~:text=OpenTF%20Announces%20Fork%20of%20Terraform) | #Terraform #Fork #Roadmap #AvailableSoon
+- 📝 [When Taylor Swift crashed Ticketmaster: A lesson on scaling for spikes | by Fahim ul Haq | Dev Learning Daily](https://learningdaily.dev/when-taylor-swift-crashed-ticketmaster-a-lesson-on-scaling-for-spikes-9931e2c888e9)
+- 🧰 [Pants - The ergonomic build system](https://www.pantsbuild.org/) | #Python #Go #Java #Scalability #Shell #Concurrency #Caching #MonorepoCompatible
+- 🧰 [monorepo.tools - resources and tooling about monorepos](https://monorepo.tools) | #Monorepo #Definitions #NotMonolith #Polyrepo
+- 🧰 [terraform-best-practices.com - a collection of best practices (naming, styling, …)](https://www.terraform-best-practices.com/naming) | #Terraform #BestPractices
+
+### Miscellaneous 🎆
+
+- 📝 [Hello, I'm Mr. Null. My Name Makes Me Invisible to Computers](https://www.wired.com/2015/11/null/) | #ImpactOfSoftwareOnRealLife #NullSafe #Trivia🎈
+- 📝 [Toyota’s Japanese production was halted due to insufficient disk space | Ars Technica](https://arstechnica.com/information-technology/2023/09/insufficient-disk-space-caused-2-day-shutdown-of-toyotas-japanese-factories/) | #SystemMonitoring #HighAvailability #Trivia🎈
+- 🧰 [chebykinn/sedmario: NES Super Mario Bros level 1 written in pure sed!](https://github.com/chebykinn/sedmario)
+
+### Productivity 👟
+
+- 📝 [Measuring developer productivity? A response to McKinsey (Part 1) - Gergely Orosz & Kent Beck](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity) | #SoftwareEngineeringCycle #Measure #Tradeoffs #DORA
+- 📝 [Measuring developer productivity? A response to McKinsey (Part 2) - Gergely Orosz & Kent Beck](https://newsletter.pragmaticengineer.com/p/measuring-developer-productivity-part-2) | #TeamVsIndividualPerformance #Management #CostOfEngineering #Goodhart'sLaw
+- 📝 [Yes, you can measure software developer productivity (McKinsey)](https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/yes-you-can-measure-software-developer-productivity)
+- 📽️  [Dave Farley - My Response To The NONSENSE McKinsey Article On Developer Productivity](https://www.youtube.com/watch?v=yuUBZ1pByzM&ab_channel=ContinuousDelivery)
+
+### Python 🐍
+
+- 🚀 [Python Release Python 3.11.5](https://www.python.org/downloads/release/python-3115/)
+
+### Web Development 🧑‍💻
+
+- 📝 [Serverless Bun vs Node: Benchmarking on AWS Lambda](https://medium.com/@mitchellkossoris/serverless-bun-vs-node-benchmarking-on-aws-lambda-ecd4fe7c2fc2) | #Benchmark #Performance #AWS #CloudWatch #X-Ray
+- 🚀 [Bun 1.0 is out](https://bun.sh/blog/bun-v1.0) | #JavaScript #Runtime #Lightweight #Fast
+
 ## 7th Aug. 2023
 
 ### AI 🤖
