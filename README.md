@@ -22,6 +22,55 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 25th Sept. 2023
+
+### AI 🤖
+
+- 📝 [Gartner Identifies Top Trends Shaping the Future of Data Science and Machine Learning](https://www.gartner.com/en/newsroom/press-releases/2023-08-01-gartner-identifies-top-trends-shaping-future-of-data-science-and-machine-learning) | #CloudDataEcosystems #EdgeAI #ResponsibleAI #DataCentricAI #Industry #Trends
+- 📝 [Microsoft says it will take the heat if Copilot AI commercial users get sued - The Verge](https://www.theverge.com/2023/9/7/23863349/microsoft-ai-assume-responsibility-copyright-lawsuit) | #Copyright #Law #Industry #GithubCopilot
+- 🧰 [MilesCranmer/awesome-ml-demos: Curated list of interactive ML demos](https://github.com/MilesCranmer/awesome-ml-demos) | #MachineLearning #InteractiveDemo #Code
+
+### DDD 📘
+
+- 📝 [Domain-Driven Cloud: Aligning Your Cloud Architecture to Your Business Model (InfoQ - Ryan Shriver & Chris Belyea)](https://www.infoq.com/articles/domain-driven-cloud/) | #DomainDrivenCloud #BizDevOps
+- 📝 [What is Example-Mapping? - How to coach developers to get a chat with their product experts (Philippe Bourgau)](https://philippe.bourgau.net/how-to-coach-developers-to-get-a-chat-with-their-product-experts/) | #Discussion #Collaboration #Workshop #Product #Scoping #BehaviorDrivenDevelopment
+
+### DevOps 🛠️
+
+- 📝 [OpenTF, the open-source alternative to Terraform, becomes OpenTofu (Linux Foundation)](https://www.linuxfoundation.org/press/announcing-opentofu?utm_content=264841292&utm_medium=social&utm_source=twitter&hss_channel=tw-14706299) | #
+- 🚀 [docker compose v2.22.0 is out](https://github.com/docker/compose/releases/tag/v2.22.0) | #Docker #DockerCompose
+- 🧰 [superfly/corrosion: Gossip-based service discovery (and more) for large distributed systems - A Rust alternative to Consul](https://github.com/superfly/corrosion) | #ServiceDiscovery #Rust #GossipBased
+
+### Management 👔
+
+- 📝 [Netflix’s historic introduction of levels for software engineers - The Pragmatic Engineer (Gergely Orosz)](https://blog.pragmaticengineer.com/netflix-levels/) | #CarreerFramework #SeniorEngineer #StaffEngineer #PrincipalEngineer #IndividualContributor
+
+### Miscellaneous 🎆
+
+- 📝 [Github Issue - New name for the OpenTF project · #296 · opentofu/opentofu](https://github.com/opentofu/opentofu/issues/296) | #Discussion #RenamingOpenTFtoOpenTofu
+- 📽️  [TypeScript Origins: The Documentary - YouTube](https://www.youtube.com/watch?v=U6s2pdxebSo) | #TypeScript #2HoursLongVideo
+- 🧰 [QrGPT - Free Cool-looking AI QR Code generator](https://www.qrgpt.io/) | #OpenSource
+
+### Platform📡
+
+- 🐦 [The Platform Maturity Model (by The NewStack)](https://twitter.com/bibryam/status/1702756880236294294/photo/1) | #MaturityModel #Adoption #UserExperience #OrganizationalStructure #Funding
+- 📝 [Three Economies, an Introduction - Jabe Bloom](https://blog.jabebloom.com/2020/03/04/the-three-economies-an-introduction/) | #BusinessPlatform #Differenciation #Scale #Scope #DDD
+- 🗓️ [BackstageCon NA will be in November 2023](https://events.linuxfoundation.org/kubecon-cloudnativecon-north-america/co-located-events/backstagecon/) | #Conference
+- 🚀 [Backstage v1.18.0 is out](https://backstage.io/docs/releases/v1.18.0/) | #DeveloperPlatform #SoftwareCatalog
+
+### Python 🐍
+
+- 🐦 [Pydantic won't be dropping Python 3.7 support in version 2.4 since they still have 21% (~4m) downloads of 2.3 using it (Pydantic on X/Twitter)](https://twitter.com/pydantic/status/1704787595438215262) | #Python #DropPython3.7 #DataDrivenDecision
+- 📽️  [EuroPython 2023 videos have been released on YouTube](https://www.youtube.com/playlist?list=PL8uoeex94UhFcwvAfWHybD7SfNgIUBRo-) | #EuroPython #Conference #VOD #CzechRepublic
+- 🚀 [Poetry 1.6.0 is out](https://python-poetry.org/blog/announcing-poetry-1.6.0/) | #
+
+### Software Engineering ⚙️
+
+- 📝 [Death by a thousand microservices (Andrei Taranchenko)](https://renegadeotter.com/2023/09/10/death-by-a-thousand-microservices.html) | #JavaScript #FAANG #VentureCapital #Microservices #MicroservicesHype #Monolith
+- 🧰 [Google Online Security Blog: Scaling Rust Adoption Through Training (Google)](https://security.googleblog.com/2023/09/scaling-rust-adoption-through-training.html) | #LearningResource #Rust #BareMetal #Android #Concurrency #Free
+- 🧰 [Resources on TDD (Test-Driven Development) (Sébastien Roccaserra)](https://www.linkedin.com/posts/sroccaserra_testdrivendevelopment-tdd-activity-7109536155645140993-a2Ap/?utm_source=share&utm_medium=member_desktop) | #Design #TestDrivenDevelopment #TDD #Mock #Refactoring
+- 🧰 [SQL join flavors - Anton Zhiyanov](https://antonz.org/sql-join/) | #SQL #Joins #Qualified #Natural #Cross #Partitioned #Lateral
+
 ## 18th Sept. 2023
 
 ### AI 🤖
