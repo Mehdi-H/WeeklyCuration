@@ -22,6 +22,67 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 2nd of October 2023
+
+### AI 🤖
+
+- 🚀 [Announcing Mistral 7B (MistralAI)](https://mistral.ai/news/announcing-mistral-7b/) | #128kTokens #OpenSource #OpenSourceCode #OpenSourceWeights #SlidingWindowAttention #FlashAndFurious
+- 🚀 [ChatGPT can now see, hear, and speak (OpenAI)](https://openai.com/blog/chatgpt-can-now-see-hear-and-speak) | #ChatGPT #MultiModal #ChatAboutImages
+- 🚀 [DALL·E 3 is out (OpenAI)](https://openai.com/dall-e-3)
+
+### Architecture 📐
+
+- 📝 [Scaling Kubernetes to 7,500 nodes (OpenAI)](https://openai.com/research/scaling-kubernetes-to-7500-nodes) | #Kubernetes #Scalability #GPT-3 #CLIP #DALL·E #GPU
+- 📝 [What Every Programmer Should Know About Memory  (Ulrich Drepper, RedHat - 2007)](https://people.freebsd.org/~lstewart/articles/cpumemory.pdf) | #Memory #Hardware #RAM #CPU #LowLevel
+- 📽️  [Duck Conf 2023 replay is available 🦆🇫🇷](https://www.youtube.com/playlist?list=PLXlbmbYadKH5H6F1Ml3pOqe0hiyknsPkF) | #Conference #Architecture #InformationSystem #SovereignCloud #DevOps #SRE #Analytics #Platform #GreenIT
+- 🗓️ [Duck Conf 2024 will be 26th of March 🦆🇫🇷](https://event.inwink.com/la-duck-conf-2024) | #Conference #Architecture
+- 🗓️ [PGConf NYC 2023 is this week](https://postgresql.us/events/pgconfnyc2023/schedule/) | #PostgreSQL #Conference
+- 🧰 [Thoughtworks Technology Radar #29 (Sept. 2023)](https://www.thoughtworks.com/content/dam/thoughtworks/documents/radar/2023/09/tr_technology_radar_vol_29_en.pdf) | #Technology #Radar #AIAssistedSoftwareDevelopment #HowProductiveIsMeasuringProductivity #LLM #DataProduct #DataProductThinking #RemoteSoftwareDelivery
+
+### Cloud ☁️
+
+- 📝 [The State of Serverless 2023 (Datadog)](https://www.datadoghq.com/state-of-serverless/) | #Serverless #Adoption #FullyManagedContainerBasedServerless #GCP #AWS #Lambda #AZF
+- 🚀 [Azure CLI 2.53.0 is out ](https://github.com/MicrosoftDocs/azure-docs-cli/blob/main/docs-ref-conceptual/release-notes-azure-cli.md#september-26-2023) | #Azure #CLI
+- 🚀 [Azure Functions: Node.js v4 programming model is Generally Available (Microsoft)](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/azure-functions-node-js-v4-programming-model-is-generally/ba-p/3929217?wt.mc_id=AZ-MVP-5004195) | #AZF #NodeJS
+- 🚀 [Support for Python 3.11 in Azure Functions generally available (Microsoft)](https://azure.microsoft.com/fr-fr/updates/ga-support-for-python-311-in-azure-functions/?wt.mc_id=AZ-MVP-5004195) | #AZF #Python
+
+### DDD 📘
+
+- 🐦 [CRUD System vs Event Sourcing illustrated (Alex Xu)](https://twitter.com/alexxubyte/status/1707415524374966673) | #DynamicWorldBuilding #EventSourcing
+- 📝 [Evolution Patterns of Sociotechnical Systems (Amal Tahri @ DDDEurope2023)](https://speakerdeck.com/amta/ddd-europe-2023-evolution-patterns-of-sociotechnical-systems)
+
+### Data 💾
+
+- 📝 [Scaling Kafka to Support PayPal’s Data Growth | by Monish Koppa (The PayPal Technology Blog)](https://medium.com/paypal-tech/scaling-kafka-to-support-paypals-data-growth-a0b4da420fab) | #Paypal #Kafka #ClusterManagement #Monitoring #TrillionsOfMessagesPerDay #MoreThan85NodesKafkaCluster
+- 🚀 [Apache Spark 3.5.0 is out](https://spark.apache.org/releases/spark-release-3-5-0.html) | #GolangSupport #StructuredStreaming #ArrowPythonUDFs #DistributedML #RocksDB
+- 🚀 [DuckDB 0.9.0 (Undulata) is out](https://duckdb.org/2023/09/26/announcing-duckdb-090.html) | #DuckDB #AWS #Azure #WASM #PySpark
+
+### DevOps 🛠️
+
+- 📝 [What happened at KubeCon Shanghai 2023 (Mauricio Salatino)](https://www.salaboy.com/2023/09/29/kubecon-shanghai-2023/) | #Conference #Kubernetes #KMesh #Koordinator #Volcano #AI #Platform #FinOps #Dapr
+- 📝 [Why should I care about OpenTofu? (Marcin Wyszynski)](https://opentofu.org/blog/why-should-i-care-about-opentofu/) | #OpenTofu #Terraform #Roadmap
+
+### Platform📡
+
+- 📝 [A Practical Step-by-Step Approach to Building a Platform (The New Stack, Hemanth Kavuluru)](https://thenewstack.io/a-practical-step-by-step-approach-to-building-a-platform/) | #Roadmap #UseCases #Infrastructure #DeploymentAsAService #SRE #FinOps #Backstage #Rafay
+- 📝 [The Modernization Imperative: Shifting left is for suckers. Shift down instead (Richard Seroter, Google Cloud Blog)](https://cloud.google.com/blog/products/application-development/richard-seroter-on-shifting-down-vs-shifting-left?hl=en) | #ShiftLeft #ShiftDown #EmpowerDevelopersThroughPlatformEngineering
+
+### Product Management 📦
+
+- 📝 [Product Principles at GitLab - Core organizational principles to build world class products](https://about.gitlab.com/handbook/product/product-principles/#prefer-small-primitives) | #AlwaysBeLearning #YouAreNotTheCustomer #BeDataDriven #MinimalViableChange #LearnFromFailures #ConventionOverConfiguration #AlwaysAllowForDeployingInProduction
+
+### Python 🐍
+
+- 📝 [Bypassing the GIL for Parallel Processing in Python (Real Python)](https://realpython.com/python-parallel-processing/) | #Parallelism #Concurrency #CPU #IO #MultiThread #GIL
+- 🚀 [Pydantic 2.4.2 is out](https://github.com/pydantic/pydantic/releases/tag/v2.4.2) | #BugFix
+
+### Software Engineering ⚙️
+
+- 📝 [How I used GitHub Copilot Chat to build a ReactJS gallery prototype (The GitHub Blog, Senna Parsa)](https://github.blog/2023-09-27-how-i-used-github-copilot-chat-to-build-a-reactjs-gallery-prototype/) | #GithubCopilot #AIAssistedSoftwareDevelopment #ReactJS #Prototype #CopilotChat #Prompt #UnitTests
+- 📝 [How we reduced the size of our JavaScript bundles by 33% (Dropbox, Umair Nadeem and Rich Hong)](https://dropbox.tech/frontend/how-we-reduced-the-size-of-our-javascript-bundles-by-33-percent) | #JavaScript #Packaging #CodeSplitting #TreeShaking #Rollup
+- 📝 [Why are Cloud Development Environments Spiking in Popularity, Now? (Gergely Orosz)](https://newsletter.pragmaticengineer.com/p/why-are-cloud-development-environments?utm_source=post-email-title&publication_id=458709&post_id=137426746&utm_campaign=email-post-title&isFreemail=true&r=3ucun&utm_medium=email) | #CDE #RemoteSoftwareDelivery #Monorepo #Productivity #Gitpod #Stackblitz #DevZero #Devpods
+- 🗓️ [Hacktoberfest 2023 has started](https://hacktoberfest.com/) | #Hacktoberfest #10thAnniversary #OpenSource #PullRequests
+
 ## 25th Sept. 2023
 
 ### AI 🤖
