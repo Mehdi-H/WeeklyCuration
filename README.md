@@ -22,6 +22,61 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 9th of October 2023
+
+### (Engineering) Management 👔
+
+- 🎙️ [The Managing Managers Podcast - Pat Kua](https://managingmanagers.tech/)
+- 📝 [Your software architecture is complex as your organization - Dr. Milan Milanovic](https://newsletter.techworld-with-milan.com/p/your-architecture-is-complex-as-your) | #Conway'sLaw #OrganizationalStructure #Amazon #Google #Microsoft #Facebook #Graphs #LinesOfCommunication #CodeQuality
+- 🧰 [The Engineering in Engineering Manager (slides from StretchCon2023) - Pat Kua](https://speakerdeck.com/patkua/the-engineering-in-engineering-manager?slide=3) | #EngineeringManagement #Definitions #Scope #Quality #Performance #Flow
+
+### AI 🤖
+
+- 🧰 [jason718/awesome-self-supervised-learning: A curated list of awesome self-supervised methods](https://github.com/jason718/awesome-self-supervised-learning) | #SelfSupervised #MachineLearning #ComputerVision #NLP #Speech
+
+### Architecture 📐
+
+- 📝 [Goodbye to sequential integers, hello UUIDv7! - Buildkite](https://buildkite.com/blog/goodbye-integers-hello-uuids) | #UUID #v7 #TimeOrdered #MillisecondPrecision
+- 📝 [Mastodon : How we reduced the cost of building Twitter at Twitter-scale by 100x – Red Planet Labs](https://blog.redplanetlabs.com/2023/08/15/how-we-reduced-the-cost-of-building-twitter-at-twitter-scale-by-100x/) | #100xLessCode #Rama #Spring #S3 #Soapbox
+- 📝 [Seven Principles of Cloud-Native Architecture - Alibaba Cloud](https://www.alibabacloud.com/blog/seven-principles-of-cloud-native-architecture_598431) | #ServiceOriented #Elasticity #Observability #Resilience #ZeroTrustSecurity #DevOps
+- 🗓️ [P99 CONF is next week](https://www.p99conf.io/) | #Performance #Optimization #CQRS
+
+### Data Mesh 🥅
+
+- 📚 [Implementing Data Mesh - Jean-Georges Perrin, Eric Broda (O'Reilly)](https://learning.oreilly.com/library/view/implementing-data-mesh/9781098156213/)
+- 📝 [Data Mesh Can’t Win Without a Massive Culture Shift - Kim Thies](https://medium.com/profitoptics/data-mesh-is-failing-f60aded05324) | #DataMesh #Culture #Change
+- 📝 [The Data Product Strategy | Becoming Metrics-First - Animesh Kumar, Travis Thomspon, And Samadrita Ghosh](https://moderndata101.substack.com/p/the-data-product-strategy-becoming) | #DataProduct #Strategy #MetricModel #BCGFramework #FeedbackLoop
+
+### Data 💾
+
+- 📝 [A Brief Comparison of Database, Data Warehouse, Data Mart and Data Lake and these services in Azure. - Microsoft Community Hub](https://techcommunity.microsoft.com/t5/nta-techies/a-brief-comparison-of-database-data-warehouse-data-mart-and-data/ba-p/3944981) | #Database #DataWarehouse #DataMart #DataLake #Azure
+- 📽️  [Nadieh Bremer—Amidst the visualization and art of data (Keynote, Outlier 2023) - YouTube](https://www.youtube.com/watch?v=QWiy1hSEDls&t=1342s) | #Dataviz #Satellites #Space #DesignThinking
+
+### DevOps & SRE 🛠️
+
+- 📝 [Introduction to heredocs in Dockerfiles - Docker](https://www.docker.com/blog/introduction-to-heredocs-in-dockerfiles/) | #TodayILearned #Dockerfile #NoMoreRun&&
+- 📝 [hashicorp/terraform 1.6.0 is out](https://github.com/hashicorp/terraform/releases/tag/v1.6.0) | #S3BackendChanges #TerraformTest
+- 🚀 [Docker Announces Docker AI - docker.com](https://www.docker.com/press-release/announces-ai-boosting-developer-productivity-through-automated-guidance/) | #Docker #LLM #CodeGeneration #ContextSpecific
+- 🚀 [jqlang/jq 1.7 is out](https://github.com/jqlang/jq/releases)
+- 🧰 [Unleash your inner #SSH ninja! 🥷 with "SSH Kung Fu" | Tyblog | SSH Kung Fu](https://blog.tjll.net/ssh-kung-fu/) | #SSH #OpenSSH #Tunnelling #FileSystem #Proxy
+
+### Miscellaneous 🎆
+
+- 📝 [IBM taps AI to translate COBOL code to Java - TechCrunch](https://techcrunch.com/2023/08/22/ibm-taps-ai-to-translate-cobol-code-to-java/?guccounter=1) | #Cobol #Java #IBM #CodeAssistantForIBMZ
+- 🚀 [Exploring Wordle - how to programmatically find eligible answers for a Wordle game using Python (George V. Reilly)](https://www.georgevreilly.com/2023/09/26/ExploringWordle.html) | #Wordle #Game #LettersConstraints #Bash #Pipes #Python
+
+### Platform📡
+
+- 📽️  [Managing Software at Scale: Kelsey Hightower Talks with Niklas Gustavsson about Fleet Management - Spotify Engineering](https://engineering.atspotify.com/2023/10/managing-software-at-scale-googles-kelsey-hightower-talks-with-spotifys-niklas-gustavsson-about-fleet-management/?utm_medium=social&utm_source=linkedIn&utm_campaign=kelsey%20ngn&utm_content=evergreen) | #Spotify #Squad #Fleet #Monorepo #Polyrepo #Consensus #Backstage #DeveloperExperience #DevEx
+
+### Software Engineering ⚙️
+
+- 📝 [How to Eat an Elephant - Kent Beck](https://www.mechanical-orchard.com/post/how-to-eat-an-elephant) | #Mainframe #Modernization #ComplexityPartitioning #Legacy
+- 🚀 [Announcing Rust 1.73.0 | Rust Blog](https://blog.rust-lang.org/2023/10/05/Rust-1.73.0.html)
+- 🚀 [Go 1.21 is out](https://go.dev/doc/go1.21)
+- 🚀 [Gradle 8.4 is out](https://docs.gradle.org/8.4/release-notes.html)
+- 🚀 [Python 3.12 is out _ What’s New In Python 3.12 — Python documentation](https://docs.python.org/3.12/whatsnew/3.12.html#:~:text=This%20article%20explains%20the%20new,full%20details%2C%20see%20the%20changelog.)
+
 ## 2nd of October 2023
 
 ### AI 🤖
