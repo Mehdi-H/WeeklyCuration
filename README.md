@@ -22,6 +22,42 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 16th of October 2023
+
+### (Engineering) Management 👔
+
+- 📝 [Engineering Leadership Tactics: Building Alignment (Francisco Trindade)](https://franciscomt.medium.com/leadership-tactics-building-alignment-65ec9d2b4bcf) | #Alignment #Metrics #Lean #ImprovementKata #Consensus #Nemawashi #RFCs
+
+### Architecture 📐
+
+- 📝 [CAP Theorem: Use It to Choose an Open Source Database - Open Source For You](https://www.opensourceforu.com/2023/09/cap-theorem-use-it-to-choose-an-open-source-database/) | #CAP #Consistency #Availability #PartitionTolerance #Schema&Examples
+- 📝 [Fallacies of Distributed Systems (Mahdi Yusuf @ ArchitectureNotes)](https://architecturenotes.co/fallacies-of-distributed-systems/) | #Schema&Examples #Latency #Network #Bandwidth #Security
+- 📝 [Twelve-factor app development on Google Cloud (Cloud Architecture Center)](https://cloud.google.com/architecture/twelve-factor-app-development-on-gcp) | #TwelveFactorApp #Methodology #GCP #Cloud
+- 🚀 [Introducing Apache Kafka 3.6 (Confluent)](https://www.confluent.io/blog/introducing-apache-kafka-3-6/?utm_source=twitter&utm_medium=organicsocial&utm_id=tm.devx_ch.bp_introducing-apache-kafka-3-6_content.apache-kafka) | #Kafka #MajorRelease #ZookeeperDeprecated
+
+### Data Mesh 🥅
+
+- 📝 [Auchan construit sa stratégie Data adaptable autour du Data Mesh (ZDNet)](https://www.zdnet.fr/actualites/auchan-construit-sa-strategie-data-adaptable-autour-du-data-mesh-39961494.htm) | #DataMesh #Industry #French
+- 📝 [Data Mesh: Suez réconcilie innovation et legacy (Alliancy)](https://www.alliancy.fr/data-mesh-suez-reconcilie-innovation-legacy) | #DataMesh #Industry #French
+
+### DevOps & SRE 🛠️
+
+- 📝 [A Brief, Incomplete and Mostly Wrong Devops Glossary (Earthly Blog)](https://earthly.dev/blog/devops-glossary/) | #IDontKnowWhatSREIsAndAtThisPointImTooAfraidToAsk
+- 📝 [Creating Checklists for High Stakes Changes - Major Database Upgrade in Production (Nick Janetakis)](https://nickjanetakis.com/blog/creating-checklists-for-high-stakes-changes) | #Checklist #Database #Communication #Snapshot #FunctionalChecks
+- 📝 [The balancing act of reliability and availability  (incident.io)](https://incident.io/blog/reliability-vs-availability) | #Definitions #Availability #Reliability #The9sOfAvailability #Monitoring #FaultTolerance #DisasterRecovery
+- 📝 [Why LFI is a tough sell (Lorin Hochstein @ Surfing Complexity)](https://surfingcomplexity.blog/2023/08/20/why-lfi-is-a-tough-sell/) | #LearningFromIncident #RootCauseAnalysis #SocioTechnicalSystems #MentalModel #Miscalibration #StructuralSecrecy
+- 🧰 [teivah/sre-roadmap: An Opinionated Roadmap to Become an SRE (Concepts > Tools)](https://github.com/teivah/sre-roadmap) | #Concepts>Tools #Roadmap #SRE
+
+### Miscellaneous 🎆
+
+- 🐦 [Vinay Hiremath on X : "Today @loom is joining @Atlassian"](https://twitter.com/vhmth/status/1712456811305951676) | #Atlassian #Loom #Acquisition
+- 📝 [Welcoming Loom to the Atlassian team (Atlassian)](https://www.atlassian.com/blog/announcements/atlassian-acquires-loom) | #Atlassian #Loom #Acquisition
+
+### Software Engineering ⚙️
+
+- 📚 [Culture Test vol. 1 : apprivoisez la complexité](https://publication.octo.com/culture-test-vol-1) | #OCTOTechnology #WhitePaper #Culture
+- 📽️  [Refactoring Skills: Extract Function | Guided Learning Hour (Emily Bache on YouTube)](https://www.youtube.com/watch?v=lOAktlPd8uk) | #Refactoring #EmilyBache #Schema&Examples #Code
+
 ## 9th of October 2023
 
 ### (Engineering) Management 👔
