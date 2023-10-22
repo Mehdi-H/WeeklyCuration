@@ -22,6 +22,64 @@ Feel free to propose content to the newsletter
 
 ---
 
+## 23rd of October 2023
+
+### AI 🤖
+
+- 📝 [Improving Image Generation with Better Captions ( DALL-E 3, OpenAI, 2023)](https://cdn.openai.com/papers/dall-e-3.pdf) | #CaptionImprovement #DALL·E #ResearchPaper
+- 📝 [Multimodality and Large Multimodal Models (Chip Huyen)](https://huyenchip.com/2023/10/10/multimodal.html) | #CLIP #Flamingo #MultiModal #Speech #Vision
+- 📝 [State of AI Report 2023 (Nathan Benaich, AirStreetCapital)](https://www.stateof.ai/) | #AlphaZero #ComputeIsTheNewOil #DeepMind #DiffusionModels #GPT-4 #GenerativeAI #LLM #LLama🦙 #PaLM-E #RLHF #Robotics
+- 📝 [🇫🇷 Construire son RAG (Retrieval Augmented Generation) grâce à langchain: L’exemple de l’Helpdesk d’OCTO - (Florian BASTIN, Nicolas CAVALLO - Blog OCTO Talks !)](https://blog.octo.com/le-chatbot-docto-langchain-rag-et-code-associe/) | #LangChain #RetrievalAugmentedGeneration
+- 📝 [🇫🇷 Docaposte lance son offre d’IA générative et souveraine (ChannelNews.fr)](https://www.channelnews.fr/docaposte-lance-son-offre-dia-generative-et-souveraine-129266) | #Alfred40B #Europe #GenerativeAI #LaPoste #NumSpot #Outscale #SecNumCloud #SovereignCloud
+- 📽️  [Training AI to Play Pokemon with Reinforcement Learning (video & code, Peter Whidden)](https://www.youtube.com/watch?v=DcYLT37ImBY) | #Pokemon #PokemonRed #ReinforcementLearning
+- 🗓️ [First edition of COLM (Conference On Language Models) is announced for Oct. 2024, CFP is open](https://colmweb.org/) | #CFP #Conference #LLM
+- 🗓️ [apply(ops)23 will be 14 November (virtual conference) (Tecton)](https://www.tecton.ai/apply/) | #LLM #MLOps #MachineLearningEngineering #MultiCloud
+
+### Architecture 📐
+
+- 📝 [Announcing updates to the AWS Well-Architected Framework guidance (AWS Architecture Blog)](https://aws.amazon.com/fr/blogs/architecture/announcing-updates-to-the-aws-well-architected-framework-guidance/) | #CostOptimization #OperationalExcellence #Reliability #Security #Sustainability
+- 📝 [Building a reliable notification system - (Joseph-Emmanuel Banzio, Contentsquare Engineering Blog)](https://engineering.contentsquare.com/2023/building-a-reliable-notification-system/) | #ContentSquare #Grafana #Kafka #Microservices #Notification #Observability #Scalability #UserJourney
+- 📝 [How Zalando migrated their shopping carts to Amazon DynamoDB from Apache Cassandra (AWS Database Blog)](https://aws.amazon.com/fr/blogs/database/how-zalando-migrated-their-shopping-carts-to-amazon-dynamodb-from-apache-cassandra/) | #ApacheCassandra #CaseStudies #DynamoDB #Migration
+- 📝 [How we built Pingora, the proxy that connects Cloudflare to the Internet (Cloudflare)](https://blog.cloudflare.com/how-we-built-pingora-the-proxy-that-connects-cloudflare-to-the-internet/) | #HTTP #Nginx #Optimization #Performance #Proxy #Rust
+- 📝 [Internal and external events, or how to design event-driven API (Event-Driven.io)](https://event-driven.io/en/internal_external_events/) | #ContextMapping #EventsAsAPI #ExternalEvents #InternalEvents
+- 🧰 [ByteByteGoHq/system-design-101: Explain complex systems using visuals and simple terms. Help you prepare for system design interviews.](https://github.com/ByteByteGoHq/system-design-101) | #CI/CD #CaseStudies #CommunicationProtocols #Database #FunctionalChecks #SystemDesign
+
+### DDD 📘
+
+- 🐦 [DDD Europe 2024  CFP for DDD Foundations is open](https://twitter.com/ddd_eu/status/1715305613549252969) | #CFP #Conference
+- 📽️  [A Daily Practice of Empirical Software Design - Kent Beck - DDD Europe 2023 - (YouTube)](https://www.youtube.com/watch?v=yBEcq23OgB4&list=PLf9p-N3ltMTtMHSSGiTPZwdDvn0F2Mmp3)
+
+### Data 💾
+
+- 📽️  [Airflow Summit 2023 replay is available  (YouTube)](https://www.youtube.com/playlist?list=PLGudixcDaxY29qXIXhd90htHp_BFk-Bqf) | #Airflow
+- 🗓️ [🇫🇷 La Grosse Conf, la conférence Data & IA by OCTO Technology, sera le 27 mars 2023](https://lagrosseconf.com/) | #AI #Data #GenerativeAI #MLOps #ResponsibleAI
+
+### DevOps & SRE 🛠️
+
+- 📝 [HashiConf 2023 recap.  (by Glen Yu | Oct, 2023, Medium)](https://medium.com/@glen.yu/hashiconf-2023-recap-b90ae64347a1) | #Consul #EphemeralWorkspace #Nomad #Roadmap #Terraform #TestingFramewok #Vault
+- 📝 [Summary of the AWS Service Event in the Northern Virginia (US-EAST-1) Region (AWS)](https://aws.amazon.com/fr/message/061323/) | #AWS #AWS STS #Lambda #LearningFromIncident #PostMortem
+- 🗓️ [ObservabilityCON 2023 will be in London, 14 - 15 November (GrafanaLabs)](https://grafana.com/about/events/observabilitycon/2023/) | #Grafana #K6 #LGTM-Stack #Logging #Loki #Observability #OpenTelemetry #Performance #SLI/SLO
+
+### Miscellaneous 🎆
+
+- 🧰 [GitHub - cloudcommunity/Free-Certifications: A curated list of free courses & certifications.](https://github.com/cloudcommunity/Free-Certifications)
+- 🧰 [Is it Pokémon or Big Data?](https://pixelastic.github.io/pokemonorbigdata/) | #BigData #Game #Pokemon
+
+### Python 🐍
+
+- 🚀 [Ruff v0.1.0 is out](https://astral.sh/blog/ruff-v0.1.0) | #JupyterNotebooksSupport #Lint #Performance #Python #Python3.12 #Rust #WrittenInRust
+- 🧰 [tiangolo/typer: Typer, build great CLIs. Easy to code. Based on Python type hints. The FastAPI of CLIs](https://github.com/tiangolo/typer) | #CLI #Click #Hug #Pydantic
+
+### Security☣️
+
+- 📝 [How Cloudflare mitigated yet another Okta compromise (Cloudflare)](https://blog.cloudflare.com/how-cloudflare-mitigated-yet-another-okta-compromise/) | #Security #TokenCompromised
+
+### Software Engineering ⚙️
+
+- 📚 [Your Code as a Crime Scene, Second Edition is out (end of Beta)](https://pragprog.com/titles/atcrime2/your-code-as-a-crime-scene-second-edition/)
+- 📽️  [ChatGPT & Copilot are NOT Refactoring Tools (Emily Bache on YouTube)](https://www.youtube.com/watch?v=iXGBIX8gudE) | #EmilyBache #LLMsAreNotRefactoringTools
+- 🧰 [fraktalio/fmodel-rust: Domain modeling. Event sourcing. CQRS. Functional Domain Modeling with Rust](https://github.com/fraktalio/fmodel-rust) | #DomainModelling #FunctionalProgrammingλ #Rust
+
 ## 16th of October 2023
 
 ### (Engineering) Management 👔
