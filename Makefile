@@ -72,3 +72,55 @@ NEXT_WEEK: raw_db
 	jq '.[] |= sort'  | \
 	jq -r 'to_entries | sort_by(.key) | .[] |  "### \(.key)\n\n\(.value | join("\n"))\n"' > NEXT_WEEK.md
 	echo "[⋆] Upcoming newsletter post is available @ file://$(PWD)/NEXT_WEEK.md ..."
+
+.PHONY: add-issue  ## 📰 to generate and prepend an issue to README.md; safe to run again for the same ISSUE
+add-issue:
+	if [[ -z "$(ISSUE)" ]]; then
+		echo '[!] ISSUE is required, e.g. make add-issue ISSUE="29th of August 2026"' >&2
+		exit 2
+	fi
+	$(MAKE) NEXT_WEEK ISSUE="$(ISSUE)"
+	if [[ ! -s NEXT_WEEK.md ]]; then
+		echo '[!] NEXT_WEEK.md is empty; README.md was not changed.' >&2
+		exit 1
+	fi
+	if grep -Fqx "## $(ISSUE)" README.md; then
+		echo "[⋆] Issue '$(ISSUE)' is already present in README.md; nothing to do."
+		exit 0
+	fi
+	tmp_file="$$(mktemp)"
+	trap 'rm -f "$$tmp_file"' EXIT
+	{
+		sed -n '1,/^---$$/p' README.md
+		printf '\n## %s\n\n' "$(ISSUE)"
+		cat NEXT_WEEK.md
+		printf '\n'
+		sed '1,/^---$$/d' README.md
+	} > "$$tmp_file"
+	mv "$$tmp_file" README.md
+	git diff --check -- README.md
+	echo "[⋆] Issue '$(ISSUE)' was prepended to README.md."
+
+.PHONY: release  ## 🚀 to tag and publish an issue as a GitHub Release; requires a clean, pushed working tree
+release:
+	if [[ -z "$(ISSUE)" || -z "$(ISSUE_NUMBER)" ]]; then
+		echo '[!] ISSUE and ISSUE_NUMBER are required, e.g. make release ISSUE_NUMBER=13 ISSUE="29th of August 2026"' >&2
+		exit 2
+	fi
+	if ! command -v gh >/dev/null; then
+		echo '[!] GitHub CLI (gh) is required.' >&2
+		exit 1
+	fi
+	if ! git diff --quiet || ! git diff --cached --quiet; then
+		echo '[!] Commit or discard local changes before creating a release.' >&2
+		exit 1
+	fi
+	tag="issue#$(ISSUE_NUMBER)"
+	if git rev-parse -q --verify "refs/tags/$$tag" >/dev/null; then
+		echo "[!] Tag '$$tag' already exists." >&2
+		exit 1
+	fi
+	git tag -a "$$tag" -m "Issue #$(ISSUE_NUMBER) - $(ISSUE)"
+	git push origin "$$tag"
+	gh release create "$$tag" --title "Issue #$(ISSUE_NUMBER) - $(ISSUE)" --generate-notes
+	echo "[⋆] GitHub Release '$$tag' was published."
