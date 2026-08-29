@@ -103,8 +103,8 @@ add-issue:
 
 .PHONY: release  ## 🚀 to tag and publish an issue as a GitHub Release; requires a clean, pushed working tree
 release:
-	if [[ -z "$(ISSUE)" || -z "$(ISSUE_NUMBER)" ]]; then
-		echo '[!] ISSUE and ISSUE_NUMBER are required, e.g. make release ISSUE_NUMBER=13 ISSUE="29th of August 2026"' >&2
+	if [[ -z "$(ISSUE)" || -z "$(ISSUE_NUMBER)" || -z "$(ISSUE_DATE)" ]]; then
+		echo '[!] ISSUE, ISSUE_DATE and ISSUE_NUMBER are required, e.g. make release ISSUE_NUMBER=13 ISSUE="29th of August 2026" ISSUE_DATE="29 Aug. 2026"' >&2
 		exit 2
 	fi
 	if ! command -v gh >/dev/null; then
@@ -120,7 +120,17 @@ release:
 		echo "[!] Tag '$$tag' already exists." >&2
 		exit 1
 	fi
-	git tag -a "$$tag" -m "Issue #$(ISSUE_NUMBER) - $(ISSUE)"
+	if ! grep -Fqx "## $(ISSUE)" README.md; then
+		echo "[!] Issue '$(ISSUE)' was not found in README.md." >&2
+		exit 1
+	fi
+	notes_file="$$(mktemp)"
+	trap 'rm -f "$$notes_file"' EXIT
+	{
+		printf '# Issue #%s\n\n## %s\n\n' "$(ISSUE_NUMBER)" "$(ISSUE_DATE)"
+		awk -v heading="## $(ISSUE)" '$$0 == heading { inside = 1; next } inside && /^## / { exit } inside { print }' README.md
+	} > "$$notes_file"
+	git tag -a "$$tag" -m "Issue #$(ISSUE_NUMBER) - $(ISSUE_DATE)"
 	git push origin "$$tag"
-	gh release create "$$tag" --title "Issue #$(ISSUE_NUMBER) - $(ISSUE)" --generate-notes
+	gh release create "$$tag" --title "Issue #$(ISSUE_NUMBER) - $(ISSUE_DATE)" --notes-file "$$notes_file"
 	echo "[⋆] GitHub Release '$$tag' was published."
